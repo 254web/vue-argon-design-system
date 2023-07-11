@@ -1,8 +1,8 @@
 <template>
-    <header class="header-global">
+    <header class="header-global header-fixed">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo">
+                <img src="https://avatars.githubusercontent.com/u/52626265?s=200&v=4" alt="logo">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
@@ -114,4 +114,13 @@ export default {
 };
 </script>
 <style>
+.header-fixed {
+  position:fixed; /* fixing the position takescoordinates */
+  left:0;           /* top left corner should start at leftmost spot */
+  top:0;            /* top left corner should start at topmost spot */
+  width:100vw;      /* take up the full browser width */
+  z-index:200;  /* high z index so other content scrolls underneath */
+  height:100px;
+  background-color: chocolate;     /* define height for content */
+}
 </style>

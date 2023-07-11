@@ -27,17 +27,12 @@
                                     go.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
-                                                 href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="info"
-                                                 icon="fa fa-code">
+                                        href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
+                                        class="mb-3 mb-sm-0" type="info" icon="fa fa-code">
                                         Components
                                     </base-button>
-                                    <base-button tag="a"
-                                                 href="https://www.creative-tim.com/product/argon-design-system"
-                                                 class="mb-3 mb-sm-0"
-                                                 type="white"
-                                                 icon="ni ni-cloud-download-95">
+                                    <base-button tag="a" href="https://www.creative-tim.com/product/argon-design-system"
+                                        class="mb-3 mb-sm-0" type="white" icon="ni ni-cloud-download-95">
                                         Download HTML
                                     </base-button>
                                 </div>
@@ -117,8 +112,7 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow
-                                  rounded></icon>
+                            <icon name="ni ni-settings-gear-65" class="mb-5" size="lg" type="success" shadow rounded></icon>
                             <h3>Awesome features</h3>
                             <p>The kit comes with three pre-built pages to help you get started faster. You can change
                                 the text and images and you're good to go.</p>
@@ -155,7 +149,7 @@
                             <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
-                                     class="svg-bg">
+                                    class="svg-bg">
                                     <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
                                     <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
                                 </svg>
@@ -204,7 +198,7 @@
                         <div class="d-flex px-3">
                             <div>
                                 <icon name="ni ni-building" size="lg" class="bg-gradient-white" color="primary" shadow
-                                      rounded></icon>
+                                    rounded></icon>
                             </div>
                             <div class="pl-4">
                                 <h4 class="display-3 text-white">Modern Interface</h4>
@@ -215,8 +209,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-satisfied" gradient="success" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-success">Awesome Support</h5>
@@ -229,8 +222,7 @@
                         <card shadow class="shadow-lg--hover mt-5">
                             <div class="d-flex px-3">
                                 <div>
-                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow
-                                          rounded></icon>
+                                    <icon name="ni ni-active-40" gradient="warning" color="white" shadow rounded></icon>
                                 </div>
                                 <div class="pl-4">
                                     <h5 class="title text-warning">Modular Components</h5>
@@ -257,8 +249,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-1-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Ryan Tompson</span>
@@ -266,11 +257,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -278,8 +269,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-2-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Romina Hadid</span>
@@ -287,11 +277,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -299,8 +289,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-3-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">Alexander Smith</span>
@@ -308,11 +297,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -320,8 +309,7 @@
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
                             <img v-lazy="'img/theme/team-4-800x800.jpg'"
-                                 class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                                 style="width: 200px;">
+                                class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
                                     <span class="d-block mb-1">John Doe</span>
@@ -329,11 +317,11 @@
                                 </h5>
                                 <div class="mt-3">
                                     <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                     <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
-                                                 icon-only></base-button>
+                                        icon-only></base-button>
                                 </div>
                             </div>
                         </div>
@@ -343,10 +331,7 @@
         </section>
         <section class="section section-lg pt-0">
             <div class="container">
-                <card gradient="warning"
-                      no-body
-                      shadow-size="lg"
-                      class="border-0">
+                <card gradient="warning" no-body shadow-size="lg" class="border-0">
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
@@ -356,7 +341,7 @@
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
                                 <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
-                                             type="white" block size="lg">
+                                    type="white" block size="lg">
                                     Download Vue
                                 </base-button>
                             </div>
@@ -410,18 +395,13 @@
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Want to work with us?</h4>
                             <p class="mt-0">Your project is very important to us.</p>
-                            <base-input class="mt-5"
-                                        alternative
-                                        placeholder="Your name"
-                                        addon-left-icon="ni ni-user-run">
+                            <base-input class="mt-5" alternative placeholder="Your name" addon-left-icon="ni ni-user-run">
                             </base-input>
-                            <base-input alternative
-                                        placeholder="Email address"
-                                        addon-left-icon="ni ni-email-83">
+                            <base-input alternative placeholder="Email address" addon-left-icon="ni ni-email-83">
                             </base-input>
                             <base-input class="mb-4">
-                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
-                                              cols="80" placeholder="Type a message..."></textarea>
+                                <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80"
+                                    placeholder="Type a message..."></textarea>
                             </base-input>
                             <base-button type="default" round block size="lg">
                                 Send Message
@@ -443,51 +423,51 @@
                             old Bootstrap project a new look!</p>
                         <div class="btn-wrapper">
                             <a href="https://www.creative-tim.com/product/vue-argon-design-system"
-                               class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
+                                class="btn btn-primary mb-3 mb-sm-0">Download Vue</a>
                         </div>
                         <div class="text-center">
                             <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
                             <div class="row justify-content-center">
                                 <div class="col-lg-2 col-4">
                                     <a href="https://getbootstrap.com/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="Bootstrap 4 - Most popular front-end component library">
+                                        data-original-title="Bootstrap 4 - Most popular front-end component library">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg'"
-                                             class="img-fluid">
+                                            class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://www.sketchapp.com/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Sketch - Digital design toolkit">
+                                        data-original-title="[Coming Soon] Sketch - Digital design toolkit">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://www.adobe.com/products/photoshop.html" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
+                                        data-original-title="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg'"
-                                             class="img-fluid  opacity-5">
+                                            class="img-fluid  opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://vuejs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="Vue.js - The progressive javascript framework">
+                                        data-original-title="Vue.js - The progressive javascript framework">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg'"
-                                             class="img-fluid">
+                                            class="img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://angularjs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
+                                        data-original-title="[Coming Soon] Angular - One framework. Mobile &amp; desktop">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://reactjs.org/" target="_blank" data-toggle="tooltip"
-                                       data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
+                                        data-original-title="[Coming Soon] React - A JavaScript library for building user interfaces">
                                         <img v-lazy="'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg'"
-                                             class="img-fluid opacity-5">
+                                            class="img-fluid opacity-5">
                                     </a>
                                 </div>
                             </div>
@@ -502,7 +482,7 @@
 
 <script>
 export default {
-  name: "home",
-  components: {}
+    name: "home",
+    components: {}
 };
 </script>
