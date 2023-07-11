@@ -17,7 +17,7 @@
             </div>
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-                <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
+                <!-- <base-dropdown class="nav-item" tag="li" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
                         <span class="nav-link-inner--text">Components</span>
@@ -46,8 +46,18 @@
                             </div>
                         </a>
                     </div>
+                </base-dropdown> -->
+                <base-dropdown tag="li">
+                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text">Enterprise Solutions</span>
+                    </a>
+                    <!-- <router-link to="/landing" class="dropdown-item">Landing</router-link>
+                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
+                    <router-link to="/login" class="dropdown-item">Login</router-link>
+                    <router-link to="/register" class="dropdown-item">Register</router-link> -->
                 </base-dropdown>
-                <base-dropdown tag="li" class="nav-item">
+                <base-dropdown class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Examples</span>
