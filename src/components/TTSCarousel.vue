@@ -153,6 +153,7 @@
 </script>
 <style>
 .card {
-background-color: transparent;
+
+  background-color: transparent;
 }
 </style>
