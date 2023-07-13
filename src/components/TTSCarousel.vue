@@ -1,12 +1,12 @@
 <template>
   <div>
-    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators background="#ababab" img-width="1024"
+    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators img-width="1024"
       img-height="480" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
       <!-- Text slides with image -->
       <b-carousel-slide 
       caption="TuCode CDL Phase 1" 
       text="Have An Idea? You Wonder How You Can Get It Done And Be Implemented Digitaly!"
-        style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=52);">
+        style="height: 562px; background-color: transparent;">
         <div class="col-12">
           <card class="border-0" hover shadow body-classes="py-5">
             <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
@@ -30,7 +30,7 @@
       <b-carousel-slide 
       caption="TuCode CDL Phase 2" 
       text="We Document, Design & Develop Together"
-        style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);">
+        style="height: 562px;">
 
         <div class="col-lg-12">
           <card class="border-0" hover shadow body-classes="py-5">
@@ -54,7 +54,7 @@
       <b-carousel-slide 
       caption="TuCode CDL Phase 3" 
       text="As We Document, Develop & Design, We Listen Learn & Implement Before Go-Live to Launch"
-      style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);">
+      style="height: 562px;">
 
         <div class="col-lg-12">
           <card class="border-0" hover shadow body-classes="py-5">
