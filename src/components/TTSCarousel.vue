@@ -1,93 +1,78 @@
 <template>
   <div>
-    <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="4000"
-      controls
-      indicators
-      background="#ababab"
-      img-width="1024"
-      img-height="480"
-      style="text-shadow: 1px 1px 2px #333;"
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
+    <b-carousel id="carousel-1" v-model="slide" :interval="4000" controls indicators background="#ababab" img-width="1024"
+      img-height="480" style="text-shadow: 1px 1px 2px #333;" @sliding-start="onSlideStart" @sliding-end="onSlideEnd">
       <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
-        style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=52);"
-      >
-      <div class="col-12">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-primary text-uppercase">Download Argon</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
-                                        that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="primary" rounded>design</badge>
-                                        <badge type="primary" rounded>system</badge>
-                                        <badge type="primary" rounded>creative</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="primary" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
-    </b-carousel-slide>
+      <b-carousel-slide 
+      caption="TuCode CDL Phase 1" 
+      text="Have An Idea? You Wonder How You Can Get It Done And Be Implemented Digitaly!"
+        style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=52);">
+        <div class="col-12">
+          <card class="border-0" hover shadow body-classes="py-5">
+            <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
+            </icon>
+            <h6 class="text-primary text-uppercase">Our Three Cs</h6>
+            <!-- <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
+              that includes the most important components and features.</p> -->
+            <div>
+              <badge type="primary" rounded>Contact</badge>
+              <badge type="primary" rounded>Consult</badge>
+              <badge type="primary" rounded>Command</badge>
+            </div>
+            <base-button tag="a" href="#" type="primary" class="mt-4">
+              Get In Touch
+            </base-button>
+          </card>
+        </div>
+      </b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54"
-      style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);"
-      >
-        
+      <b-carousel-slide 
+      caption="TuCode CDL Phase 2" 
+      text="We Document, Design & Develop Together"
+        style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);">
+
         <div class="col-lg-12">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-success text-uppercase">Build Something</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="success" rounded>business</badge>
-                                        <badge type="success" rounded>vision</badge>
-                                        <badge type="success" rounded>success</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="success" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
+          <card class="border-0" hover shadow body-classes="py-5">
+            <icon name="ni ni-istanbul" type="success" rounded class="mb-4">
+            </icon>
+            <h6 class="text-success text-uppercase">Our Three Ds</h6>
+            <div>
+              <badge type="success" rounded>Document</badge>
+              <badge type="success" rounded>Design</badge>
+              <badge type="success" rounded>Develop</badge>
+            </div>
+            <base-button tag="a" href="#" type="success" class="mt-4">
+              Progress
+            </base-button>
+          </card>
+        </div>
 
       </b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide
-      style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);"
-      >
-        
-      <div class="col-lg-12">
-                                <card class="border-0" hover shadow body-classes="py-5">
-                                    <icon name="ni ni-planet" type="warning" rounded class="mb-4">
-                                    </icon>
-                                    <h6 class="text-warning text-uppercase">Prepare Launch</h6>
-                                    <p class="description mt-3">Argon is a great free UI package based on Bootstrap
-                                        4 that includes the most important components and features.</p>
-                                    <div>
-                                        <badge type="warning" rounded>marketing</badge>
-                                        <badge type="warning" rounded>product</badge>
-                                        <badge type="warning" rounded>launch</badge>
-                                    </div>
-                                    <base-button tag="a" href="#" type="warning" class="mt-4">
-                                        Learn more
-                                    </base-button>
-                                </card>
-                            </div>
+      <b-carousel-slide 
+      caption="TuCode CDL Phase 3" 
+      text="As We Document, Develop & Design, We Listen Learn & Implement Before Go-Live to Launch"
+      style="height: 562px; background-image: url(https://picsum.photos/1024/480/?image=54);">
+
+        <div class="col-lg-12">
+          <card class="border-0" hover shadow body-classes="py-5">
+            <icon name="ni ni-planet" type="warning" rounded class="mb-4">
+            </icon>
+            <h6 class="text-warning text-uppercase">Our Three Ls</h6>
+            <div>
+              <badge type="warning" rounded>Listen</badge>
+              <badge type="warning" rounded>Learn</badge>
+              <badge type="warning" rounded>Launch</badge>
+            </div>
+            <base-button tag="a" href="#" type="warning" class="mt-4">
+              Projects
+            </base-button>
+          </card>
+        </div>
       </b-carousel-slide>
-      
+
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
       <!-- <b-carousel-slide>
@@ -134,22 +119,22 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        slide: 0,
-        sliding: null
-      }
+export default {
+  data() {
+    return {
+      slide: 0,
+      sliding: null
+    }
+  },
+  methods: {
+    onSlideStart(slide) {
+      this.sliding = true
     },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
-      }
+    onSlideEnd(slide) {
+      this.sliding = false
     }
   }
+}
 </script>
 <style>
 .card {
