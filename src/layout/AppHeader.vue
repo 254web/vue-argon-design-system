@@ -73,7 +73,7 @@
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#" target="_blank" rel="noopener"
+                    <a class="nav-link nav-link-icon" href="#"  rel="noopener"
                        data-toggle="tooltip" title="Like us on Facebook">
                         <i class="fa fa-facebook-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Facebook</span>
@@ -81,13 +81,13 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
+                        rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
                         <i class="fa fa-instagram"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#" target="_blank" rel="noopener"
+                    <a class="nav-link nav-link-icon" href="#"  rel="noopener"
                        data-toggle="tooltip" title="Follow us on Twitter">
                         <i class="fa fa-twitter-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Twitter</span>
@@ -95,13 +95,13 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="#"
-                       target="_blank" rel="noopener" data-toggle="tooltip" title="Star us on Github">
+                        rel="noopener" data-toggle="tooltip" title="Star us on Github">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>
                 </li>
                 <li class="nav-item d-lg-block ml-lg-4">
-                    <a href="#" target="_blank" rel="noopener"
+                    <a href="#"  rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>

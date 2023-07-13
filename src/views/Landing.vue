@@ -61,13 +61,12 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg mt--300">
+        <section class="section section-lg mt--200">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
                         <h2 class="display-3">The amazing Team</h2>
-                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
+                        <p class="lead text-muted">Our TuCode Tech Solutions Amazing Team</p>
                     </div>
                 </div>
                 <div class="row">
