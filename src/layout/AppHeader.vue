@@ -73,39 +73,38 @@
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#"  rel="noopener"
-                       data-toggle="tooltip" title="Like us on Facebook">
+                    <a class="nav-link nav-link-icon" href="#" rel="noopener" data-toggle="tooltip"
+                        title="Like us on Facebook">
                         <i class="fa fa-facebook-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Facebook</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#"
-                        rel="noopener" data-toggle="tooltip" title="Follow us on Instagram">
+                    <a class="nav-link nav-link-icon" href="#" rel="noopener" data-toggle="tooltip"
+                        title="Follow us on Instagram">
                         <i class="fa fa-instagram"></i>
                         <span class="nav-link-inner--text d-lg-none">Instagram</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#"  rel="noopener"
-                       data-toggle="tooltip" title="Follow us on Twitter">
+                    <a class="nav-link nav-link-icon" href="#" rel="noopener" data-toggle="tooltip"
+                        title="Follow us on Twitter">
                         <i class="fa fa-twitter-square"></i>
                         <span class="nav-link-inner--text d-lg-none">Twitter</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-icon" href="#"
-                        rel="noopener" data-toggle="tooltip" title="Star us on Github">
+                    <a class="nav-link nav-link-icon" href="#" rel="noopener" data-toggle="tooltip"
+                        title="Star us on Github">
                         <i class="fa fa-github"></i>
                         <span class="nav-link-inner--text d-lg-none">Github</span>
                     </a>
                 </li>
                 <li class="nav-item d-lg-block ml-lg-4">
-                    <a href="#"  rel="noopener"
-                       class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="fa fa-calendar mr-2"></i>
-                </span>
+                    <a href="#" rel="noopener" class="btn btn-neutral btn-icon">
+                        <span class="btn-inner--icon">
+                            <i class="fa fa-calendar mr-2"></i>
+                        </span>
                         <span class="nav-link-inner--text">Schedule Contact</span>
                     </a>
                 </li>
@@ -119,21 +118,26 @@ import BaseDropdown from "@/components/BaseDropdown";
 import CloseButton from "@/components/CloseButton";
 
 export default {
-  components: {
-    BaseNav,
-    CloseButton,
-    BaseDropdown
-  }
+    components: {
+        BaseNav,
+        CloseButton,
+        BaseDropdown
+    }
 };
 </script>
 <style>
 .header-fixed {
-  position:fixed; /* fixing the position takescoordinates */
-  left:0;           /* top left corner should start at leftmost spot */
-  top:0;            /* top left corner should start at topmost spot */
-  width:100vw;      /* take up the full browser width */
-  z-index:200;  /* high z index so other content scrolls underneath */
-  height:100px;
-  background-color: cornflowerblue;     /* define height for content */
-}
-</style>
+    position: fixed;
+    /* fixing the position takescoordinates */
+    left: 0;
+    /* top left corner should start at leftmost spot */
+    top: 0;
+    /* top left corner should start at topmost spot */
+    width: 100vw;
+    /* take up the full browser width */
+    z-index: 200;
+    /* high z index so other content scrolls underneath */
+    height: 100px;
+    background-color: cornflowerblue;
+    /* define height for content */
+}</style>

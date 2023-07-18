@@ -7,24 +7,20 @@
                     <h4 class="mb-0 font-weight-light">TuCode Tech - Solutions You Can Trust</h4>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">
-                    <a  rel="noopener" href="#"
-                       class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
-                       data-original-title="Follow us">
+                    <a rel="noopener" href="#" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg"
+                        data-toggle="tooltip" data-original-title="Follow us">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a  rel="noopener" href="#"
-                       class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
-                       data-original-title="Like us">
+                    <a rel="noopener" href="#" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"
+                        data-toggle="tooltip" data-original-title="Like us">
                         <i class="fa fa-facebook-square"></i>
                     </a>
-                    <a  rel="noopener" href="#"
-                       class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
-                       data-original-title="Follow us">
+                    <a rel="noopener" href="#" class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round"
+                        data-toggle="tooltip" data-original-title="Follow us">
                         <i class="fa fa-dribbble"></i>
                     </a>
-                    <a  rel="noopener" href="#"
-                       class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
-                       data-original-title="Star on Github">
+                    <a rel="noopener" href="#" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg"
+                        data-toggle="tooltip" data-original-title="Star on Github">
                         <i class="fa fa-github"></i>
                     </a>
                 </div>
@@ -33,8 +29,8 @@
             <div class="row align-items-center justify-content-md-between">
                 <div class="col-md-6">
                     <div class="copyright">
-                        &copy; {{year}}
-                        <a href=""  rel="noopener">TuCode Tech Solutions</a>
+                        &copy; {{ year }}
+                        <a href="" rel="noopener">TuCode Tech Solutions</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -43,14 +39,13 @@
                             <a href="" class="nav-link" rel="noopener">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"  rel="noopener">Our Team</a>
+                            <a href="" class="nav-link" rel="noopener">Our Team</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"  rel="noopener">Live Projects</a>
+                            <a href="" class="nav-link" rel="noopener">Live Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href=""
-                               class="nav-link"  rel="noopener">Contact Us</a>
+                            <a href="" class="nav-link" rel="noopener">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -60,13 +55,12 @@
 </template>
 <script>
 export default {
-  name: 'app-footer',
-  data() {
-    return {
-      year: new Date().getFullYear()
+    name: 'app-footer',
+    data() {
+        return {
+            year: new Date().getFullYear()
+        }
     }
-  }
 };
 </script>
-<style>
-</style>
+<style></style>

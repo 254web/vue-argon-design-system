@@ -15,7 +15,7 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <TTSCarousel/>
+                                <TTSCarousel />
                                 <!-- <h1 class="display-3  text-white">A beautiful Design System
                                     <span>completed with examples</span>
                                 </h1>
@@ -39,20 +39,18 @@
                                 <h1 class="display-3  text-white">End To End Solutions
                                     <!-- <span>completed with examples</span> -->
                                 </h1>
-                                <p class="lead  text-white">With Our Own Customed TuCode CDL Phases. We Work Towards Ensuring Fast Trustable Solutions</p>
-                                    <p class="lead  text-white bold">Our Phases Goes By;-</p>
-                                    <p class="lead  text-white bold">1. 3Cs - Contant, Consult & Command</p>
-                                    <p class="lead  text-white bold">2. 3Ds - Document, Design & Develop</p>
-                                    <p class="lead  text-white bold">3. 3Ls - Listen, Learn & Launch</p>
-                                    
+                                <p class="lead  text-white">With Our Own Customed TuCode CDL Phases. We Work Towards
+                                    Ensuring Fast Trustable Solutions</p>
+                                <p class="lead  text-white bold">Our Phases Goes By;-</p>
+                                <p class="lead  text-white bold">1. 3Cs - Contant, Consult & Command</p>
+                                <p class="lead  text-white bold">2. 3Ds - Document, Design & Develop</p>
+                                <p class="lead  text-white bold">3. 3Ls - Listen, Learn & Launch</p>
+
                                 <div class="btn-wrapper">
-                                    <base-button tag="a"
-                                        href=""
-                                        class="mb-3 mb-sm-0" type="info" icon="fa fa-spinner">
+                                    <base-button tag="a" href="" class="mb-3 mb-sm-0" type="info" icon="fa fa-spinner">
                                         Learn More
                                     </base-button>
-                                    <base-button tag="a" href=""
-                                        class="mb-3 mb-sm-0" type="white" icon="fa fa-envelope">
+                                    <base-button tag="a" href="" class="mb-3 mb-sm-0" type="white" icon="fa fa-envelope">
                                         Contact Us
                                     </base-button>
                                 </div>
@@ -169,7 +167,7 @@ export default {
 };
 </script>
 <style>
-.shape-color{
+.shape-color {
     /* background-color: aqua; */
 }
 </style>
