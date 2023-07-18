@@ -104,7 +104,7 @@
                     <a href="#"  rel="noopener"
                        class="btn btn-neutral btn-icon">
                 <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
+                  <i class="fa fa-calendar mr-2"></i>
                 </span>
                         <span class="nav-link-inner--text">Schedule Contact</span>
                     </a>
@@ -134,6 +134,6 @@ export default {
   width:100vw;      /* take up the full browser width */
   z-index:200;  /* high z index so other content scrolls underneath */
   height:100px;
-  background-color: chocolate;     /* define height for content */
+  background-color: cornflowerblue;     /* define height for content */
 }
 </style>

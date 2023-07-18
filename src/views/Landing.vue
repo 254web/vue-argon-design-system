@@ -34,23 +34,26 @@
                                     </base-button>
                                 </div> -->
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" style="padding-top: 100px;">
                                 <!-- <TTSCarousel/> -->
-                                <h1 class="display-3  text-white">A beautiful Design System
-                                    <span>completed with examples</span>
+                                <h1 class="display-3  text-white">End To End Solutions
+                                    <!-- <span>completed with examples</span> -->
                                 </h1>
-                                <p class="lead  text-white">The design system comes with four pre-built pages to help
-                                    you get started faster. You can change the text and images and you're good to
-                                    go.</p>
+                                <p class="lead  text-white">With Our Own Customed TuCode CDL Phases. We Work Towards Ensuring Fast Trustable Solutions</p>
+                                    <p class="lead  text-white bold">Our Phases Goes By;-</p>
+                                    <p class="lead  text-white bold">1. 3Cs - Contant, Consult & Command</p>
+                                    <p class="lead  text-white bold">2. 3Ds - Document, Design & Develop</p>
+                                    <p class="lead  text-white bold">3. 3Ls - Listen, Learn & Launch</p>
+                                    
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
-                                        href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                                        class="mb-3 mb-sm-0" type="info" icon="fa fa-code">
-                                        Components
+                                        href=""
+                                        class="mb-3 mb-sm-0" type="info" icon="fa fa-spinner">
+                                        Learn More
                                     </base-button>
-                                    <base-button tag="a" href="https://www.creative-tim.com/product/argon-design-system"
-                                        class="mb-3 mb-sm-0" type="white" icon="ni ni-cloud-download-95">
-                                        Download HTML
+                                    <base-button tag="a" href=""
+                                        class="mb-3 mb-sm-0" type="white" icon="fa fa-envelope">
+                                        Contact Us
                                     </base-button>
                                 </div>
                             </div>
@@ -61,7 +64,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg mt--200">
+        <!-- <section class="section section-lg mt--200">
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
@@ -152,7 +155,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </template>
 
