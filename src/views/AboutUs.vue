@@ -1,5 +1,6 @@
 <template>
     <div>
+        <carousel></carousel>
         <hero></hero>
         <basic-elements></basic-elements>
         <inputs></inputs>
@@ -9,7 +10,6 @@
         <icons></icons>
         <examples></examples>
         <download-section></download-section>
-        <carousel></carousel>
     </div>
 </template>
 <script>
