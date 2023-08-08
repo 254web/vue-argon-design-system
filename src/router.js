@@ -7,6 +7,7 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import AboutUs from "./views/AboutUs.vue";
 
 Vue.use(Router);
 
@@ -57,7 +58,16 @@ export default new Router({
         default: Profile,
         footer: AppFooter
       }
-    }
+    },
+    {
+      path: "/aboutus",
+      name: "aboutus",
+      components: {
+        header: AppHeader,
+        default: AboutUs,
+        footer: AppFooter
+      }
+    },
   ],
   scrollBehavior: to => {
     if (to.hash) {
