@@ -16,9 +16,9 @@
                 </div>
                 <div class="col-lg-8 mb-lg-auto">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
-                        <b-carousel id="carousel1" controls indicators style="height: 500px;">
+                        <b-carousel id="carousel1" controls indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="https://www.canva.com/photos/MADGxs-46VY-information-sign-on-shelf/"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/img-1-1200x1000.jpg"></b-carousel-slide>
                             <b-carousel-slide img-src="img/theme/img-2-1200x1000.jpg"></b-carousel-slide>
                         </b-carousel>
                     </div>
