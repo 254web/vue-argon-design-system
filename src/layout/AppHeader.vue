@@ -65,10 +65,10 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Our Company</span>
                     </a>
-                    <router-link to="/aboutus" class="dropdown-item">About Us</router-link>
-                    <router-link to="/aboutus" class="dropdown-item">Team</router-link>
-                    <router-link to="/aboutus" class="dropdown-item">Projects</router-link>
-                    <router-link to="/aboutus" class="dropdown-item">Contact Us</router-link>
+                    <router-link to="/" class="dropdown-item">About Us</router-link>
+                    <router-link to="/" class="dropdown-item">Team</router-link>
+                    <router-link to="/" class="dropdown-item">Projects</router-link>
+                    <router-link to="/" class="dropdown-item">Contact Us</router-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
