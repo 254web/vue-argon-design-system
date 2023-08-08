@@ -16,31 +16,10 @@
                 </div>
                 <div class="col-lg-8 mb-lg-auto">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
-                        <b-carousel id="carousel1" controls indicators>
+                        <b-carousel id="carousel1" controls indicators style="height: 500px;">
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="https://www.canva.com/photos/MADGxs-46VY-information-sign-on-shelf/" style="height: 500px;"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/img-2-1200x1000.jpg" style="height: 500px;"></b-carousel-slide>
-                            <b-carousel-slide>
-                                caption="TuCode CDL Phase 1"
-                                text="Have An Idea? You Wonder How You Can Get It Done And Be Implemented Digitaly!"
-                                style="height: 562px; background-color: transparent;">
-                                <div class="col-12">
-                                    <card class="border-0" hover shadow body-classes="py-5">
-                                        <icon name="ni ni-check-bold" type="primary" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-primary text-uppercase">Our Three Cs</h6>
-                                        <div>
-                                            <badge type="primary" rounded>Contact</badge>
-                                            <badge type="primary" rounded>Consult</badge>
-                                            <badge type="primary" rounded>Command</badge>
-                                        </div>
-                                        <base-button tag="a" href="#" type="primary" class="mt-4">
-                                            Get In Touch
-                                        </base-button>
-                                    </card>
-                                </div>
-
-                            </b-carousel-slide>
+                            <b-carousel-slide img-src="https://www.canva.com/photos/MADGxs-46VY-information-sign-on-shelf/"></b-carousel-slide>
+                            <b-carousel-slide img-src="img/theme/img-2-1200x1000.jpg"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>
