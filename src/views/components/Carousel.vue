@@ -10,12 +10,12 @@
         </div>
         <div class="container py-0 pb-lg">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="col-lg-2 mb-5 mb-lg-0">
                     <h1 class="text-white font-weight-light">About Us</h1>
                     <a href="#"
                        class="btn btn-white mt-4">Contact Us</a>
                 </div>
-                <div class="col-lg-8 mb-lg-auto">
+                <div class="col-lg-10 mb-lg-auto">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
                         <b-carousel id="carousel1"
                                     controls
