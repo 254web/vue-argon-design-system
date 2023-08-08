@@ -15,7 +15,7 @@
                     <a href="#"
                        class="btn btn-white mt-4">Contact Us</a>
                 </div>
-                <div class="col-8 mb-lg-auto">
+                <div class="col-8 mb-lg-auto" style="height: 500px;">
                     <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
                         <b-carousel id="carousel1"
                                     controls
